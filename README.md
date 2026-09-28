@@ -6,7 +6,7 @@ Flock (ALPR) cameras
 sources:
 flock
 
-research questions:
+research questions: Do Flock cameras reduce crime rates in their region? 
 
 
 Team
