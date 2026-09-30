@@ -6,7 +6,11 @@ Flock (ALPR) cameras
 sources:
 flock
 
-research questions: Do Flock cameras reduce crime rates in their region? 
+research questions: 
+1. Do Flock cameras reduce crime rates in their region? 
+2. Have flock cameras helped ice agents detain people?
+3. Do surveillance cameras violate the privacy of every American?
+4. Are there specific areas flock cameras are installed rather than other areas? 
 
 
 Team
