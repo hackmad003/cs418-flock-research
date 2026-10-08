@@ -25,7 +25,7 @@ Who operates them, and How they're used.
 
 Full raw files live in `data/raw/` and are **gitignored**. To get them, run the fetch commands below from the project root.
 A 100-row sample of each raw file is committed in `data/processed/sample/` (made by `scripts/make_samples.py`).
-`notebooks/00_explore_raw.ipynb` loads each raw dataset into a polars DataFrame and shows the numbers below.
+`notebooks/Data_Acq_M3/00_explore_raw.ipynb` loads each raw dataset into a polars DataFrame and shows the numbers below.
 
 | Dataset | Role | File the notebook reads |
 |---|---|---|
@@ -209,13 +209,24 @@ cs418-flock-research/
 │       ├── atlas_of_surveillance_2026-09-28.csv
 │       └── census/
 ├── notebooks/
-│   └── 00_explore_raw.ipynb         # loads each dataset into a dataframe and notes its shape
+│   ├── Data_Acq_M3/
+│   │   └── 00_explore_raw.ipynb     # loads each dataset into a dataframe and notes its shape
+│   ├── EDA_M4/
+│   │   ├── eda.ipynb                # unified EDA notebook (final deliverable)
+│   │   ├── eda_aa.ipynb
+│   │   ├── eda_ag.ipynb
+│   │   ├── eda_avg.ipynb
+│   │   └── eda_hn.ipynb
+│   ├── Data_Documentation_M5/
+│   ├── Narrative_Analysis_M6/
+│   └── Public_Facing_Report_M7/
 │ 
 ├── scripts/                         # run these (fetch → data/raw/)
 │   ├── fetch_alpr_cameras.py
 │   ├── fetch_eyesonflock.py
 │   ├── fetch_atlas.py
-│   └── fetch_census.py
+│   ├── fetch_census.py
+│   └── make_samples.py
 │ 
 └── src/
     └── cs418_flock_research/        # import these (data/raw/ → DataFrame)

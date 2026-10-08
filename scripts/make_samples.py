@@ -4,7 +4,7 @@ Save a small sample (first 100 rows) of each RAW dataset to data/processed/sampl
 
 The full raw files are gitignored (too big for GitHub). The samples ARE
 committed, so anyone can see what the data looks like without downloading it.
-Each dataset is loaded exactly the way notebooks/00_explore_raw.ipynb loads it,
+Each dataset is loaded exactly the way notebooks/Data_Acq_M3/00_explore_raw.ipynb loads it,
 so the sample columns match the notebook and the README.
 
 Run AFTER the fetch scripts:
@@ -77,7 +77,7 @@ ZIP_PREFIX = "860Z200US"  # ACS rows whose GEO_ID starts with this are ZIP codes
 ###########
 # LOADERS #
 ###########
-# Same loading code as notebooks/00_explore_raw.ipynb.
+# Same loading code as notebooks/Data_Acq_M3/00_explore_raw.ipynb.
 
 def load_cameras() -> pl.DataFrame:
     """One row per camera: [lon, lat] from geometry plus every property."""
