@@ -8,11 +8,15 @@ authors = [
 ]
 requires-python = ">=3.10"
 dependencies = [
+    "geopandas>=1.1.4",
     "ipykernel>=7.3.0",
     "jupyterlab>=4.6.3",
+    "matplotlib>=3.10.9",
     "pandas>=2.3.3",
+    "plotly>=7.1.0",
     "polars>=1.44.2",
     "requests>=2.34.2",
+    "seaborn>=0.13.2",
 ]
 
 [project.scripts]

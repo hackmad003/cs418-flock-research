@@ -1,8 +1,12 @@
 # cs418-flock-research
 
 A CS 418 Data Science Research Project on ***Flock Safety ALPR 
-(Automated License Plate Reader) cameras***: Where they are, 
-Who operates them, and How they're used.
+(Automated License Plate Reader) cameras***: 
+
+Where they are, 
+Who operates them, 
+and How they're used
+Among Other Observations.
 
 
 ## RESEARCH QUESTIONS
@@ -24,13 +28,12 @@ Who operates them, and How they're used.
 ## DATASETS
 
 Full raw files live in `data/raw/` and are **gitignored**. To get them, run the fetch commands below from the project root.
-A 100-row sample of each raw file is committed in `data/processed/sample/` (made by `scripts/make_samples.py`).
-`notebooks/Data_Acq_M3/00_explore_raw.ipynb` loads each raw dataset into a polars DataFrame and shows the numbers below.
+A 100-row sample of each raw file is committed in `data/processed/sample/`.
+`notebooks/00_explore_raw.ipynb` loads each raw dataset into a polars DataFrame and shows the numbers below.
 
 | Dataset | Role | File the notebook reads |
 |---|---|---|
 | OSM ALPR cameras | primary | `data/raw/Illinois_alpr.geojson` |
-| Eyes On Flock | primary | newest `data/raw/eyesonflock_*.json` (currently 2026-09-27) |
 | EFF Atlas of Surveillance | secondary | newest `data/raw/atlas_of_surveillance_*.csv` (currently 2026-09-28) |
 | US Census by ZIP code | secondary | the three files in `data/raw/census/` |
 
@@ -49,10 +52,8 @@ Fetch: `uv run python scripts/fetch_alpr_cameras.py --state Illinois --out data/
 
 **Sources**
 
-- OpenStreetMap: https://www.openstreetmap.org
-- Overpass API (how we query OSM): https://overpass-api.de
-- DeFlock (maps ALPR cameras in OSM, runs the Overpass server we query first): https://deflock.me
-- License: © OpenStreetMap contributors, ODbL: https://www.openstreetmap.org/copyright
+- https://overpass-turbo.eu/
+
 
 **Disclaimers**
 
@@ -60,34 +61,8 @@ Fetch: `uv run python scripts/fetch_alpr_cameras.py --state Illinois --out data/
 - `timestamp` is the last edit, not the install date. It measures mapping activity, not deployment (see Q1).
 
 
-### 2. Eyes On Flock (primary)
 
-Flock Safety transparency portal data for every agency that publishes a portal, downloaded 2026-09-27. The file holds `portals` (the table below) and `summary` (national totals).
-
-- **Rows × columns:** 1,528 × 20
-- **One row =** one agency's transparency portal
-- **Key columns:** `slug` (String, agency ID), `city` / `county` / `state` / `type` (String), `total_cameras`, `total_searches`, `data_retention` (Int64), `organizations_shared_with` (List of String), `data_last_updated` (String, UTC)
-- **Time range:** portals last updated from 2026-02-25 to 2026-09-23
-- **Geography:** US, 45 states; 1,304 city-level agencies and 224 county-level agencies
-
-Fetch: `uv run python scripts/fetch_eyesonflock.py`
-
-**Sources**
-
-- Eyes On Flock: https://eyesonflock.com
-- Data endpoint (undocumented; the same one the site loads): https://eyesonflock.com/api/v1/data
-- Original data: Flock Safety transparency portals: https://transparency.flocksafety.com
-- License: CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
-
-**Disclaimers**
-
-- Only agencies that chose to publish a portal, so this is a fraction of all Flock customers.
-- The data endpoint is undocumented and may change or disappear.
-
-
-### 3. EFF Atlas of Surveillance (secondary)
-
-**How we'll use it:** For Q3, we'll **compare** agencies that have an `Automated License Plate Readers` row against agencies that don't, on how often each group also has `Face Recognition`, `Drones`, etc. rows.
+### 2. EFF Atlas of Surveillance (secondary)
 
 Which US law enforcement agencies use which surveillance technologies, downloaded 2026-09-28.
 
@@ -110,9 +85,7 @@ Fetch: `uv run python scripts/fetch_atlas.py`
 - Built from public sources. A missing row does NOT prove an agency doesn't use a technology.
 
 
-### 4. US Census by ZIP Code (secondary)
-
-**How we'll use it:** For Q2 and Q4, we'll **join** it to the OSM ALPR cameras by ZIP code: place each camera (`lat` / `lon`) inside a ZCTA, count cameras per ZCTA, then join those counts to income, population, and land area on the ZIP code. We'll then **compare** cameras per capita and per sq. mile against median household income and population density. Placing cameras inside ZCTAs needs ZCTA boundary shapes (Census TIGER/Line), which we haven't downloaded yet.
+### 3. US Census by ZIP Code (secondary)
 
 Three files, downloaded 2026-09-28: 
 ACS 5-year median household income (table B19013), 
@@ -143,8 +116,6 @@ Fetch: `uv run python scripts/fetch_census.py`
 
 - For educational purposes only (UIC CS 418 course project).
 - All data are snapshots from September 2026 and may be outdated, incomplete, or different from current official records.
-- Files in `data/raw/` are raw downloads, not official records.
-- If you reuse or share the data, review each source's license and terms first (ODbL for OSM, CC BY-SA 4.0 for Eyes On Flock, CC BY 4.0 for EFF, public domain for Census).
 
 
 ## SETUP
@@ -175,10 +146,8 @@ Download every dataset (from the project root):
 
 ```bash
 uv run python scripts/fetch_alpr_cameras.py --state Illinois --out data/raw/Illinois_alpr.geojson
-uv run python scripts/fetch_eyesonflock.py
 uv run python scripts/fetch_atlas.py
 uv run python scripts/fetch_census.py
-uv run python scripts/make_samples.py     # refresh data/processed/sample/
 ```
 
 Other ways to pull OSM cameras:
@@ -205,32 +174,27 @@ cs418-flock-research/
 │   │   └── sample/                  
 │   └── raw/                         # full downloads (gitignored)
 │       ├── Illinois_alpr.geojson
-│       ├── eyesonflock_2026-09-27.json
 │       ├── atlas_of_surveillance_2026-09-28.csv
 │       └── census/
 ├── notebooks/
-│   ├── Data_Acq_M3/
-│   │   └── 00_explore_raw.ipynb     # loads each dataset into a dataframe and notes its shape
-│   ├── EDA_M4/
-│   │   ├── eda.ipynb                # unified EDA notebook (final deliverable)
-│   │   ├── eda_aa.ipynb
-│   │   ├── eda_ag.ipynb
-│   │   ├── eda_avg.ipynb
-│   │   └── eda_hn.ipynb
-│   ├── Data_Documentation_M5/
-│   ├── Narrative_Analysis_M6/
-│   └── Public_Facing_Report_M7/
+│   ├── 00_explore_raw.ipynb         # loads each dataset into a dataframe and notes its shape
+│   ├── eda.ipynb                    # unified EDA notebook (final deliverable)
+│   ├── eda_aa2.ipynb                # Ahmad's EDA
+│   ├── EDA_AA.md                    # summary of Ahmad's EDA
+│   ├── EDA_LG.md                    # summary of Lexi's EDA
+│   └── EDA_LG.ipynb                 # Lexi's EDA
 │ 
 ├── scripts/                         # run these (fetch → data/raw/)
 │   ├── fetch_alpr_cameras.py
-│   ├── fetch_eyesonflock.py
 │   ├── fetch_atlas.py
-│   ├── fetch_census.py
-│   └── make_samples.py
+│   └── fetch_census.py
 │ 
 └── src/
     └── cs418_flock_research/        # import these (data/raw/ → DataFrame)
-        └── __init__.py 
+        ├── __init__.py
+        ├── alpr_cameras.py          # load_alpr_cameras()
+        ├── atlas.py                 # load_atlas()
+        └── census.py                # load_zcta()
 
 (Not shown: .venv/, .git/, and __pycache__/. They're generated automatically and ignored.)
 ```
@@ -243,6 +207,10 @@ cs418-flock-research/
 
 ## TEAM
 
-| Name | GitHub |
+| Name |
 |---|---|
-| Ahmad Awaidah | hackmad003 |
+| Ahmad Awaidah
+| Lexi Golley
+| Naqvi, Hussain 
+| Garcia Villalba, Ariana 
+
