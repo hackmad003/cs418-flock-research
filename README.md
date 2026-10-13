@@ -3,10 +3,19 @@
 A CS 418 Data Science Research Project on ***Flock Safety ALPR 
 (Automated License Plate Reader) cameras***: 
 
-Where they are, 
-Who operates them, 
+Where they are,
+Who operates them,
 and How they're used
 Among Other Observations.
+
+sources:
+flock
+
+research questions:
+1. Do Flock cameras reduce crime rates in their region?
+2. Have flock cameras helped ice agents detain people?
+3. Do surveillance cameras violate the privacy of every American?
+4. Are there specific areas flock cameras are installed rather than other areas?
 
 
 ## RESEARCH QUESTIONS
