@@ -8,7 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+.env
 
 # data/
 data/raw/*
 !data/raw/.gitkeep
+
+node_modules/
+_pycache__/

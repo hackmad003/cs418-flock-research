@@ -1,0 +1,101 @@
+poll_url,question,published,conducted,n_adults,category,group,answer,pct,raw_pct
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,All adults,All,Safer,36,36
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,All adults,All,Less safe,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,All adults,All,Neither safer nor less safe,44,44
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,All adults,All,Not sure,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,All,Safer,36,36
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,Northeast,Safer,39,39
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,Midwest,Safer,35,35
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,South,Safer,37,37
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,West,Safer,34,34
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,All,Less safe,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,Northeast,Less safe,11,11
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,Midwest,Less safe,9,9
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,South,Less safe,9,9
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,West,Less safe,14,14
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,All,Neither safer nor less safe,44,44
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,Northeast,Neither safer nor less safe,40,40
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,Midwest,Neither safer nor less safe,47,47
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,South,Neither safer nor less safe,44,44
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,West,Neither safer nor less safe,43,43
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,All,Not sure,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,Northeast,Not sure,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,Midwest,Not sure,9,9
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,South,Not sure,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Region,West,Not sure,9,9
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,All,Safer,36,36
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,Male,Safer,35,35
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,Female,Safer,37,37
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,All,Less safe,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,Male,Less safe,13,13
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,Female,Less safe,8,8
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,All,Neither safer nor less safe,44,44
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,Male,Neither safer nor less safe,42,42
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,Female,Neither safer nor less safe,45,45
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,All,Not sure,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,Male,Not sure,9,9
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Gender,Female,Not sure,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,All,Safer,36,36
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Dem,Safer,46,46
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Rep,Safer,39,39
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Ind,Safer,28,28
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Other,Safer,18,18
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Not sure,Safer,23,23
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,All,Less safe,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Dem,Less safe,11,11
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Rep,Less safe,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Ind,Less safe,11,11
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Other,Less safe,18,18
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Not sure,Less safe,4,4
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,All,Neither safer nor less safe,44,44
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Dem,Neither safer nor less safe,36,36
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Rep,Neither safer nor less safe,45,45
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Ind,Neither safer nor less safe,51,51
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Other,Neither safer nor less safe,59,59
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Not sure,Neither safer nor less safe,39,39
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,All,Not sure,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Dem,Not sure,7,7
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Rep,Not sure,6,6
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Ind,Not sure,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Other,Not sure,5,5
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Politics,Not sure,Not sure,34,34
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,All,Safer,36,36
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,18-29,Safer,33,33
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,30-44,Safer,39,39
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,45-64,Safer,35,35
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,65+,Safer,37,37
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,All,Less safe,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,18-29,Less safe,15,15
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,30-44,Less safe,17,17
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,45-64,Less safe,6,6
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,65+,Less safe,3,3
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,All,Neither safer nor less safe,44,44
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,18-29,Neither safer nor less safe,34,34
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,30-44,Neither safer nor less safe,35,35
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,45-64,Neither safer nor less safe,52,52
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,65+,Neither safer nor less safe,54,54
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,All,Not sure,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,18-29,Not sure,17,17
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,30-44,Not sure,9,9
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,45-64,Not sure,7,7
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Age,65+,Not sure,6,6
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,All,Safer,36,36
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,White,Safer,37,37
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Black,Safer,41,41
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Hispanic,Safer,31,31
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Other,Safer,25,25
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,All,Less safe,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,White,Less safe,11,11
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Black,Less safe,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Hispanic,Less safe,8,8
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Other,Less safe,14,14
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,All,Neither safer nor less safe,44,44
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,White,Neither safer nor less safe,46,46
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Black,Neither safer nor less safe,37,37
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Hispanic,Neither safer nor less safe,42,42
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Other,Neither safer nor less safe,50,50
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,All,Not sure,10,10
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,White,Not sure,7,7
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Black,Not sure,12,12
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Hispanic,Not sure,18,18
+https://yougov.com/en-us/daily-results/20221018-4280f-3,Do security cameras in public places generally make you feel...?,,,,Race,Other,Not sure,11,11
