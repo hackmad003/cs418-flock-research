@@ -1,0 +1,53 @@
+state,state_name,cameras_statewide,cameras_in_listed_cities,listed_cities,flock,motorola,genetec,leonardo,neology,other_vendor,unknown_vendor,url
+CA,California,21619,19043,357,15059,1795,112,19,43,1173,842,https://www.findingflock.com/cameras/california
+TX,Texas,17453,12796,218,11678,275,148,59,14,141,481,https://www.findingflock.com/cameras/texas
+GA,Georgia,10289,5834,119,5291,69,138,39,1,57,239,https://www.findingflock.com/cameras/georgia
+FL,Florida,9576,5751,170,4208,716,141,47,8,417,214,https://www.findingflock.com/cameras/florida
+IL,Illinois,7643,5440,183,3982,622,192,10,9,62,563,https://www.findingflock.com/cameras/illinois
+OH,Ohio,6973,4434,154,3913,48,20,19,3,75,356,https://www.findingflock.com/cameras/ohio
+NY,New York,4793,2727,58,936,63,303,250,11,1094,70,https://www.findingflock.com/cameras/new-york
+PA,Pennsylvania,3974,1520,62,558,143,170,16,13,411,209,https://www.findingflock.com/cameras/pennsylvania
+NC,North Carolina,3957,2228,71,1861,32,27,19,4,237,48,https://www.findingflock.com/cameras/north-carolina
+IN,Indiana,3828,2447,62,2170,105,31,3,3,47,88,https://www.findingflock.com/cameras/indiana
+TN,Tennessee,3695,2639,58,2262,147,63,5,18,76,68,https://www.findingflock.com/cameras/tennessee
+MI,Michigan,3664,2198,63,1715,240,138,2,2,68,33,https://www.findingflock.com/cameras/michigan
+VA,Virginia,3531,2111,47,1863,11,15,25,3,164,30,https://www.findingflock.com/cameras/virginia
+MO,Missouri,3487,2554,70,1732,158,601,6,11,12,34,https://www.findingflock.com/cameras/missouri
+AL,Alabama,3035,1987,56,1647,115,48,5,31,108,33,https://www.findingflock.com/cameras/alabama
+CO,Colorado,2780,2132,45,1762,24,74,10,38,175,49,https://www.findingflock.com/cameras/colorado
+AZ,Arizona,2676,2281,41,1882,186,25,6,0,121,61,https://www.findingflock.com/cameras/arizona
+NJ,New Jersey,2449,793,32,375,157,14,23,9,49,166,https://www.findingflock.com/cameras/new-jersey
+WA,Washington,2433,1686,62,1446,8,2,1,13,128,88,https://www.findingflock.com/cameras/washington
+LA,Louisiana,2247,1178,27,927,40,16,6,92,46,51,https://www.findingflock.com/cameras/louisiana
+SC,South Carolina,2172,1003,37,868,43,8,9,3,39,33,https://www.findingflock.com/cameras/south-carolina
+KS,Kansas,2106,1428,26,748,46,424,147,1,56,6,https://www.findingflock.com/cameras/kansas
+WI,Wisconsin,2091,1037,44,882,21,26,23,2,38,45,https://www.findingflock.com/cameras/wisconsin
+KY,Kentucky,1885,1215,33,1186,2,0,1,2,11,13,https://www.findingflock.com/cameras/kentucky
+MN,Minnesota,1718,1219,42,1032,44,19,0,5,92,27,https://www.findingflock.com/cameras/minnesota
+OK,Oklahoma,1547,1179,25,919,25,1,24,2,119,89,https://www.findingflock.com/cameras/oklahoma
+MA,Massachusetts,1203,651,28,541,16,6,0,6,41,41,https://www.findingflock.com/cameras/massachusetts
+MS,Mississippi,1172,693,28,590,18,58,4,0,9,14,https://www.findingflock.com/cameras/mississippi
+AR,Arkansas,1111,747,26,643,21,19,3,2,50,9,https://www.findingflock.com/cameras/arkansas
+UT,Utah,1072,758,29,553,148,26,0,0,8,23,https://www.findingflock.com/cameras/utah
+NM,New Mexico,1045,747,18,474,68,151,0,0,14,40,https://www.findingflock.com/cameras/new-mexico
+CT,Connecticut,1045,403,15,188,7,7,0,0,173,28,https://www.findingflock.com/cameras/connecticut
+MD,Maryland,1019,449,15,308,19,8,24,1,57,32,https://www.findingflock.com/cameras/maryland
+NV,Nevada,994,858,12,654,157,3,0,0,36,8,https://www.findingflock.com/cameras/nevada
+IA,Iowa,886,644,24,608,2,8,0,0,17,9,https://www.findingflock.com/cameras/iowa
+NE,Nebraska,647,258,7,142,24,1,12,0,68,11,https://www.findingflock.com/cameras/nebraska
+OR,Oregon,546,317,11,180,12,5,2,3,78,37,https://www.findingflock.com/cameras/oregon
+DE,Delaware,519,158,6,118,17,3,0,0,3,17,https://www.findingflock.com/cameras/delaware
+ID,Idaho,483,339,9,235,59,0,0,2,38,5,https://www.findingflock.com/cameras/idaho
+RI,Rhode Island,325,210,6,194,0,0,0,0,5,11,https://www.findingflock.com/cameras/rhode-island
+PR,Puerto Rico,278,136,5,55,21,25,0,0,33,2,https://www.findingflock.com/cameras/puerto-rico
+WV,West Virginia,251,35,2,24,1,1,1,0,0,8,https://www.findingflock.com/cameras/west-virginia
+SD,South Dakota,241,185,5,165,5,0,0,0,12,3,https://www.findingflock.com/cameras/south-dakota
+ND,North Dakota,152,119,3,96,0,17,1,0,0,5,https://www.findingflock.com/cameras/north-dakota
+DC,District of Columbia,110,110,1,90,8,4,4,0,2,2,https://www.findingflock.com/cameras/district-of-columbia
+ME,Maine,104,57,2,16,41,0,0,0,0,0,https://www.findingflock.com/cameras/maine
+HI,Hawaii,96,27,2,21,4,2,0,0,0,0,https://www.findingflock.com/cameras/hawaii
+MT,Montana,88,62,2,51,3,4,0,0,4,0,https://www.findingflock.com/cameras/montana
+NH,New Hampshire,80,13,1,0,0,0,0,0,13,0,https://www.findingflock.com/cameras/new-hampshire
+WY,Wyoming,73,53,2,53,0,0,0,0,0,0,https://www.findingflock.com/cameras/wyoming
+VT,Vermont,31,0,0,0,0,0,0,0,0,0,https://www.findingflock.com/cameras/vermont
+AK,Alaska,31,12,1,12,0,0,0,0,0,0,https://www.findingflock.com/cameras/alaska

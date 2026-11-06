@@ -12,3 +12,17 @@ wheels/
 # data/
 data/raw/*
 !data/raw/.gitkeep
+
+# Census TIGER/Line shapefiles (rebuilt by scripts/fetch_census_track_boundaries.py)
+data/external/census_boundaries/*
+!data/external/census_boundaries/.gitkeep
+
+
+# External data: large files, rebuilt by fetch scripts (keep folder skeleton)
+data/external/**
+!data/external/**/
+!data/external/**/.gitkeep
+
+
+# Secrets
+.env

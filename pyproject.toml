@@ -15,7 +15,10 @@ dependencies = [
     "pandas>=2.3.3",
     "plotly>=7.1.0",
     "polars>=1.44.2",
+    "pyarrow>=25.0.1",
+    "python-dotenv>=1.2.4",
     "requests>=2.34.2",
+    "scikit-learn>=1.7.2",
     "seaborn>=0.13.2",
 ]
 

@@ -1,0 +1,101 @@
+Column Name,Label
+S1701_C01_001E,Estimate!!Total!!Population for whom poverty status is determined
+S1701_C01_001M,Margin of Error!!Total!!Population for whom poverty status is determined
+S1701_C01_010M,Margin of Error!!Total!!Population for whom poverty status is determined!!AGE!!65 years and over
+S1701_C01_012M,Margin of Error!!Total!!Population for whom poverty status is determined!!SEX!!Female
+S1701_C01_014E,Estimate!!Total!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!Black or African American alone
+S1701_C01_015E,Estimate!!Total!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!American Indian and Alaska Native alone
+S1701_C01_015M,Margin of Error!!Total!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!American Indian and Alaska Native alone
+S1701_C01_016M,Margin of Error!!Total!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!Asian alone
+S1701_C01_017E,Estimate!!Total!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!Native Hawaiian and Other Pacific Islander alone
+S1701_C01_018E,Estimate!!Total!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!Some other race alone
+S1701_C01_018M,Margin of Error!!Total!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!Some other race alone
+S1701_C01_019E,Estimate!!Total!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!Two or more races
+S1701_C01_021E,"Estimate!!Total!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!White alone, not Hispanic or Latino"
+S1701_C01_024E,Estimate!!Total!!Population for whom poverty status is determined!!EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)
+S1701_C01_026E,Estimate!!Total!!Population for whom poverty status is determined!!EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher
+S1701_C01_029E,Estimate!!Total!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Employed!!Male
+S1701_C01_029M,Margin of Error!!Total!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Employed!!Male
+S1701_C01_031M,Margin of Error!!Total!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Unemployed
+S1701_C01_032M,Margin of Error!!Total!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Unemployed!!Male
+S1701_C01_034M,Margin of Error!!Total!!Population for whom poverty status is determined!!WORK EXPERIENCE!!Population 16 years and over
+S1701_C01_035E,"Estimate!!Total!!Population for whom poverty status is determined!!WORK EXPERIENCE!!Population 16 years and over!!Worked full-time, year-round in the past 12 months"
+S1701_C01_037E,Estimate!!Total!!Population for whom poverty status is determined!!WORK EXPERIENCE!!Population 16 years and over!!Did not work
+S1701_C01_038M,Margin of Error!!Total!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!50 percent of poverty level
+S1701_C01_039E,Estimate!!Total!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!125 percent of poverty level
+S1701_C01_040M,Margin of Error!!Total!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!150 percent of poverty level
+S1701_C01_042E,Estimate!!Total!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!200 percent of poverty level
+S1701_C01_042M,Margin of Error!!Total!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!200 percent of poverty level
+S1701_C01_045M,Margin of Error!!Total!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!500 percent of poverty level
+S1701_C01_046E,Estimate!!Total!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED
+S1701_C01_048M,Margin of Error!!Total!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!Female
+S1701_C01_055M,Margin of Error!!Total!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!55 to 64 years
+S1701_C01_056E,Estimate!!Total!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!65 to 74 years
+S1701_C01_057M,Margin of Error!!Total!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!75 years and over
+S1701_C01_059M,"Margin of Error!!Total!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!Worked full-time, year-round in the past 12 months"
+S1701_C01_062M,Margin of Error!!Total!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!Population in housing units for whom poverty status is determined
+S1701_C02_001M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined
+S1701_C02_002E,Estimate!!Below poverty level!!Population for whom poverty status is determined!!AGE!!Under 18 years
+S1701_C02_002M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!AGE!!Under 18 years
+S1701_C02_011M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!SEX!!Male
+S1701_C02_013E,Estimate!!Below poverty level!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!White alone
+S1701_C02_017M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!Native Hawaiian and Other Pacific Islander alone
+S1701_C02_019E,Estimate!!Below poverty level!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!Two or more races
+S1701_C02_020E,Estimate!!Below poverty level!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!Hispanic or Latino origin (of any race)
+S1701_C02_021E,"Estimate!!Below poverty level!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!White alone, not Hispanic or Latino"
+S1701_C02_022M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!EDUCATIONAL ATTAINMENT!!Population 25 years and over
+S1701_C02_024M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)
+S1701_C02_025E,"Estimate!!Below poverty level!!Population for whom poverty status is determined!!EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, associate's degree"
+S1701_C02_028M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Employed
+S1701_C02_030E,Estimate!!Below poverty level!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Employed!!Female
+S1701_C02_031M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Unemployed
+S1701_C02_035M,"Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!WORK EXPERIENCE!!Population 16 years and over!!Worked full-time, year-round in the past 12 months"
+S1701_C02_036M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!WORK EXPERIENCE!!Population 16 years and over!!Worked part-time or part-year in the past 12 months
+S1701_C02_041M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!185 percent of poverty level
+S1701_C02_042E,Estimate!!Below poverty level!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!200 percent of poverty level
+S1701_C02_042M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!200 percent of poverty level
+S1701_C02_043M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!300 percent of poverty level
+S1701_C02_044M,Margin of Error!!Below poverty level!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!400 percent of poverty level
+S1701_C02_047M,Margin of Error!!Below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!Male
+S1701_C02_049E,Estimate!!Below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!15 years
+S1701_C02_049M,Margin of Error!!Below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!15 years
+S1701_C02_052M,Margin of Error!!Below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!25 to 34 years
+S1701_C02_056E,Estimate!!Below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!65 to 74 years
+S1701_C02_057E,Estimate!!Below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!75 years and over
+S1701_C02_058M,Margin of Error!!Below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!Mean income deficit for unrelated individuals (dollars)
+S1701_C02_062M,Margin of Error!!Below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!Population in housing units for whom poverty status is determined
+S1701_C03_001M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined
+S1701_C03_003E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!AGE!!Under 18 years!!Under 5 years
+S1701_C03_004M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!AGE!!Under 18 years!!5 to 17 years
+S1701_C03_005E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!AGE!!Under 18 years!!Related children of householder under 18 years
+S1701_C03_006M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!AGE!!18 to 64 years
+S1701_C03_007M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!AGE!!18 to 64 years!!18 to 34 years
+S1701_C03_008M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!AGE!!18 to 64 years!!35 to 64 years
+S1701_C03_012M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!SEX!!Female
+S1701_C03_013E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!White alone
+S1701_C03_014M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!Black or African American alone
+S1701_C03_015E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!American Indian and Alaska Native alone
+S1701_C03_021E,"Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!White alone, not Hispanic or Latino"
+S1701_C03_021M,"Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!RACE AND HISPANIC OR LATINO ORIGIN!!White alone, not Hispanic or Latino"
+S1701_C03_023E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than high school graduate
+S1701_C03_024M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)
+S1701_C03_027E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over
+S1701_C03_028E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Employed
+S1701_C03_029E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Employed!!Male
+S1701_C03_030M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Employed!!Female
+S1701_C03_032E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Unemployed!!Male
+S1701_C03_033M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!EMPLOYMENT STATUS!!Civilian labor force 16 years and over!!Unemployed!!Female
+S1701_C03_035M,"Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!WORK EXPERIENCE!!Population 16 years and over!!Worked full-time, year-round in the past 12 months"
+S1701_C03_038E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!50 percent of poverty level
+S1701_C03_038M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!50 percent of poverty level
+S1701_C03_039E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!125 percent of poverty level
+S1701_C03_040M,Margin of Error!!Percent below poverty level!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!150 percent of poverty level
+S1701_C03_042E,Estimate!!Percent below poverty level!!Population for whom poverty status is determined!!ALL INDIVIDUALS WITH INCOME BELOW THE FOLLOWING POVERTY RATIOS!!200 percent of poverty level
+S1701_C03_048M,Margin of Error!!Percent below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!Female
+S1701_C03_050M,Margin of Error!!Percent below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!16 to 17 years
+S1701_C03_054E,Estimate!!Percent below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!45 to 54 years
+S1701_C03_057E,Estimate!!Percent below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!75 years and over
+S1701_C03_057M,Margin of Error!!Percent below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!75 years and over
+S1701_C03_058E,Estimate!!Percent below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!Mean income deficit for unrelated individuals (dollars)
+S1701_C03_060E,"Estimate!!Percent below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!Worked less than full-time, year-round in the past 12 months"
+S1701_C03_061E,Estimate!!Percent below poverty level!!UNRELATED INDIVIDUALS FOR WHOM POVERTY STATUS IS DETERMINED!!Did not work
