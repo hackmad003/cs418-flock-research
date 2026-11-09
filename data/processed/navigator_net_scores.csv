@@ -1,0 +1,20 @@
+question,group,response,pct,value_type,unit
+favorability,Overall,Net favorable,-37,reported,net_score
+favorability,Democrats,Net favorable,-44,reported,net_score
+favorability,Independents,Net favorable,-47,reported,net_score
+favorability,Non-MAGA Republicans,Net favorable,-35,reported,net_score
+favorability,MAGA Republicans,Net favorable,-18,reported,net_score
+favorability,Black,Net favorable,-27,reported,net_score
+favorability,Hispanic,Net favorable,-41,reported,net_score
+favorability,White,Net favorable,-39,reported,net_score
+favorability,AAPI,Net favorable,-31,reported,net_score
+police_use,Overall,Net support,-23,reported,net_score
+police_use,Democrats,Net support,-38,reported,net_score
+police_use,Independents,Net support,-39,reported,net_score
+police_use,Non-MAGA Republicans,Net support,-17,reported,net_score
+police_use,MAGA Republicans,Net support,6,reported,net_score
+safety_vs_privacy_debate,Overall,Net opponent,21,reported,net_score
+safety_vs_privacy_debate,Democrats,Net opponent,35,reported,net_score
+safety_vs_privacy_debate,Independents,Net opponent,35,reported,net_score
+safety_vs_privacy_debate,Non-MAGA Republicans,Net opponent,14,reported,net_score
+safety_vs_privacy_debate,MAGA Republicans,Net opponent,-8,reported,net_score

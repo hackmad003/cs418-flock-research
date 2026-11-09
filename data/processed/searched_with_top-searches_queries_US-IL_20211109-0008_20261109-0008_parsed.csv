@@ -1,0 +1,13 @@
+query,search interest,increase percent,is_breakout,increase_pct
+deflock map,100,Breakout,True,
+flock,74,Breakout,True,
+deflock cameras,43,Breakout,True,
+flock camera,30,Breakout,True,
+flock cameras,27,Breakout,True,
+deflock org,23,Breakout,True,
+what is deflock,21,Breakout,True,
+deflock maps,8,Breakout,True,
+flock camera map,8,Breakout,True,
+flock safety,6,Breakout,True,
+maps deflock,5,Breakout,True,
+have i been flocked,5,Breakout,True,

@@ -1,0 +1,95 @@
+question,group,response,pct,value_type,unit
+favorability,Overall,Favorable,15,reported,percent
+favorability,Overall,Unfavorable,52,reported,percent
+favorability,Overall,Very unfavorable,37,reported,percent
+favorability,Overall,Unfamiliar,33,reported,percent
+favorability,Democrats,Favorable,12,reported,percent
+favorability,Democrats,Unfavorable,56,derived,percent
+favorability,Independents,Favorable,11,reported,percent
+favorability,Independents,Unfavorable,58,derived,percent
+favorability,Non-MAGA Republicans,Favorable,17,reported,percent
+favorability,Non-MAGA Republicans,Unfavorable,52,derived,percent
+favorability,MAGA Republicans,Favorable,23,reported,percent
+favorability,MAGA Republicans,Unfavorable,41,derived,percent
+favorability,Black,Favorable,17,reported,percent
+favorability,Black,Unfavorable,44,derived,percent
+favorability,Hispanic,Favorable,12,reported,percent
+favorability,Hispanic,Unfavorable,53,derived,percent
+favorability,White,Favorable,15,reported,percent
+favorability,White,Unfavorable,54,derived,percent
+favorability,AAPI,Favorable,16,reported,percent
+favorability,AAPI,Unfavorable,47,derived,percent
+police_use,Overall,Support,30,reported,percent
+police_use,Overall,Oppose,53,reported,percent
+police_use,Overall,Not sure,17,reported,percent
+police_use,Democrats,Support,22,reported,percent
+police_use,Democrats,Oppose,60,reported,percent
+police_use,Democrats,Not sure,18,reported,percent
+police_use,Independents,Support,19,reported,percent
+police_use,Independents,Oppose,58,reported,percent
+police_use,Independents,Not sure,23,reported,percent
+police_use,Non-MAGA Republicans,Support,34,reported,percent
+police_use,Non-MAGA Republicans,Oppose,51,reported,percent
+police_use,Non-MAGA Republicans,Not sure,15,reported,percent
+police_use,MAGA Republicans,Support,46,reported,percent
+police_use,MAGA Republicans,Oppose,40,reported,percent
+police_use,MAGA Republicans,Not sure,14,reported,percent
+heard_about,Overall,A lot/Some,61,reported,percent
+heard_about,Democrats,A lot/Some,63,reported,percent
+heard_about,Ind & non-MAGA Republicans,A lot/Some,59,reported,percent
+heard_about,MAGA Republicans,A lot/Some,62,reported,percent
+heard_about,Black,A lot/Some,56,reported,percent
+heard_about,Hispanic,A lot/Some,68,reported,percent
+heard_about,White,A lot/Some,60,reported,percent
+heard_about,AAPI,A lot/Some,68,reported,percent
+concern,Overall,Concerned,62,reported,percent
+safety_vs_privacy_debate,Overall,Opponent statement,55,reported,percent
+safety_vs_privacy_debate,Overall,Supporter statement,34,reported,percent
+safety_vs_privacy_debate,Democrats,Opponent statement,62,reported,percent
+safety_vs_privacy_debate,Democrats,Supporter statement,27,reported,percent
+safety_vs_privacy_debate,Independents,Opponent statement,58,reported,percent
+safety_vs_privacy_debate,Independents,Supporter statement,23,reported,percent
+safety_vs_privacy_debate,Non-MAGA Republicans,Opponent statement,52,reported,percent
+safety_vs_privacy_debate,Non-MAGA Republicans,Supporter statement,38,reported,percent
+safety_vs_privacy_debate,MAGA Republicans,Opponent statement,42,reported,percent
+safety_vs_privacy_debate,MAGA Republicans,Supporter statement,50,reported,percent
+top_concerns,Overall,Info collected on people not suspected of crime,33,reported,percent
+top_concerns,Democrats,Info collected on people not suspected of crime,33,reported,percent
+top_concerns,Ind & non-MAGA Republicans,Info collected on people not suspected of crime,33,reported,percent
+top_concerns,MAGA Republicans,Info collected on people not suspected of crime,34,reported,percent
+top_concerns,Strong opponents,Info collected on people not suspected of crime,39,reported,percent
+top_concerns,Overall,Info collected without consent,33,reported,percent
+top_concerns,Democrats,Info collected without consent,35,reported,percent
+top_concerns,Ind & non-MAGA Republicans,Info collected without consent,30,reported,percent
+top_concerns,MAGA Republicans,Info collected without consent,31,reported,percent
+top_concerns,Strong opponents,Info collected without consent,41,reported,percent
+top_concerns,Overall,Government tracking daily movements,32,reported,percent
+top_concerns,Democrats,Government tracking daily movements,31,reported,percent
+top_concerns,Ind & non-MAGA Republicans,Government tracking daily movements,35,reported,percent
+top_concerns,MAGA Republicans,Government tracking daily movements,30,reported,percent
+top_concerns,Strong opponents,Government tracking daily movements,38,reported,percent
+top_concerns,Overall,Hackers or unauthorized access,31,reported,percent
+top_concerns,Democrats,Hackers or unauthorized access,30,reported,percent
+top_concerns,Ind & non-MAGA Republicans,Hackers or unauthorized access,34,reported,percent
+top_concerns,MAGA Republicans,Hackers or unauthorized access,32,reported,percent
+top_concerns,Strong opponents,Hackers or unauthorized access,27,reported,percent
+top_concerns,Overall,Lack of transparency/oversight,29,reported,percent
+top_concerns,Democrats,Lack of transparency/oversight,33,reported,percent
+top_concerns,Ind & non-MAGA Republicans,Lack of transparency/oversight,28,reported,percent
+top_concerns,MAGA Republicans,Lack of transparency/oversight,21,reported,percent
+top_concerns,Strong opponents,Lack of transparency/oversight,34,reported,percent
+top_concerns,Overall,Private info sold to companies,25,reported,percent
+top_concerns,Democrats,Private info sold to companies,25,reported,percent
+top_concerns,Ind & non-MAGA Republicans,Private info sold to companies,29,reported,percent
+top_concerns,MAGA Republicans,Private info sold to companies,20,reported,percent
+top_concerns,Strong opponents,Private info sold to companies,30,reported,percent
+top_concerns,Overall,Sharing with agencies like ICE,24,reported,percent
+top_concerns,Democrats,Sharing with agencies like ICE,34,reported,percent
+top_concerns,Ind & non-MAGA Republicans,Sharing with agencies like ICE,18,reported,percent
+top_concerns,MAGA Republicans,Sharing with agencies like ICE,11,reported,percent
+top_concerns,Strong opponents,Sharing with agencies like ICE,30,reported,percent
+top_concerns,Overall,Stalking by bad actors,23,reported,percent
+top_concerns,Democrats,Stalking by bad actors,24,reported,percent
+top_concerns,Ind & non-MAGA Republicans,Stalking by bad actors,23,reported,percent
+top_concerns,MAGA Republicans,Stalking by bad actors,24,reported,percent
+top_concerns,Strong opponents,Stalking by bad actors,31,reported,percent
