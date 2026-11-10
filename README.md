@@ -2,9 +2,9 @@
 A CS 418 Data Science Research Project on ***Flock Safety***: 
 
 ## RESEARCH QUESTIONS
-1 Where are mapped Flock cameras, and how has the mapping grown over time?
-2 Is mapped camera density associated with community characteristics?
-3 Is mapped camera density associated with political voting patterns?
+**1 Where are mapped Flock cameras, and how has the mapping grown over time?**
+**2 Is mapped camera density associated with community characteristics?**
+**3 Is mapped camera density associated with political voting patterns?**
 
 ## DATASETS
 
