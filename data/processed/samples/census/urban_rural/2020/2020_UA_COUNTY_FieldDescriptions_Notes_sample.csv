@@ -1,0 +1,34 @@
+Field Name,Field Description
+STATE,Two digit State Code
+COUNTY,Three digit County Code
+STATE_NAME,Name of the State
+COUNTY_NAME,Name of the County or County equivalent.   (* in COUNTY_NAME indicates value(s) in this row were rounded up from 0.00 to 0.01 or down from 100 to 99.99)
+POP_COU,2020 Census total population of the County
+HOU_COU,2020 Census total housing unit count of the County
+ALAND_COU,2020 land area of the County (square meters)
+ALAND_Mi²_COU,2020 land area of the County (square miles)
+POPDEN_COU,2020 population density of the County (square miles)
+HOUDEN_COU,2020 housing unit density of the County (square miles)
+TOTALBLOCKS_COU,2020 total blocks within the County
+POP_URB,2020 Census population of the County within Urban blocks
+POPPCT_URB,Percent of the 2020 Census population of the County within Urban blocks
+HOU_URB,2020 Census housing units in the County within Urban blocks
+HOUPCT_URB,Percent of 2020 Census housing units in the County within Urban blocks
+ALAND_URB,2020 Urban land area of the County (square meters)
+ALAND_Mi²_URB,2020 Urban land area of the County (square miles)
+ALAND_PCT_URB,Percent of 2020 land within the County that is classified as Urban
+POPDEN_URB,2020 Urban population density of the County (square miles)
+HOUDEN_URB,2020 Urban housing unit density of the County (square miles)
+URBANBLOCKS,2020 blocks classified as Urban within County
+POP_RUR,2020 Census population of the County within Rural blocks
+POPPCT_RUR,Percent of the 2020 Census population in the County within Rural blocks
+HOU_RUR,2020 Census housing units in the County within Rural blocks
+HOUPCT_RUR,Percent of the 2020 housing units in the County within Rural blocks
+ALAND_RUR,2020 Rural land area of the County (square meters)
+ALAND_Mi²_RUR,2020 Rural land area of the County (square miles)
+ALAND_PCT_RUR,Percent of 2020 land within the County that is classified as Rural
+POPDEN_RUR,2020 Rural population density of the County (square miles)
+HOUDEN_RUR,2020 Rural housing unit density of the County (square miles)
+RURALBLOCKS,2020 blocks classified as Rural within County
+NOTES:,
+CT_2022,The CT_2022 sheet contains the 2020 UA data for the new (as of 2022) Connecticut County equivalents.  The pre-2022 CT Counties are listed in the 2020_UA_COUNTY sheet 
