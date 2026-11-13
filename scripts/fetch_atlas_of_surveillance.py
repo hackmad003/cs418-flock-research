@@ -8,20 +8,23 @@
 #########################################
 
 
-Download the EFF Atlas of Surveillance dataset and save it, untouched, to data/raw/.
+Download the EFF Atlas of Surveillance dataset and save it, untouched, to
+data/raw/atlas_of_surveillance/atlas_of_surveillance_YYYY-MM-DD.csv
+(YYYY-MM-DD = local download date).
 
 The Atlas is a database of which US law enforcement agencies use which
 surveillance technologies (ALPR, face recognition, drones, body cams, ...).
-One row = one (agency, technology) pair. Used for research question 3.
+One row = one (agency, technology) pair. Used only by the exploratory
+V9 "adoption proxy" in notebooks/personal_notebooks/dev3.ipynb; it is not
+used by the final narrative findings.
 
 Source:  https://atlasofsurveillance.org/data-library  ("See Dataset (CSV)")
 License: EFF original material is CC BY 4.0 -- credit EFF.
 
-Example User Usage:
-    uv run python scripts/fetch_atlas.py
+Example User Usage (from the repository root):
+    uv run python scripts/fetch_atlas_of_surveillance.py
 
-Load it afterwards with:
-    from cs418_flock_research.atlas import load_atlas
+There is no dedicated loader module; read it with polars/pandas.
 
 VVV Sources VVV
 https://atlasofsurveillance.org/data-library
@@ -29,10 +32,10 @@ https://atlasofsurveillance.org/download.csv
 https://creativecommons.org/licenses/by/4.0/ (CC BY 4.0)
 
 Imports Used:
-import argparse # https://docs.python.org/3/library/argparse.html
-from datetime import date # https://docs.python.org/3/library/datetime.html
-from pathlib import Path # https://docs.python.org/3/library/pathlib.html
-import requests # https://requests.readthedocs.io/en/latest/
+import argparse  # https://docs.python.org/3/library/argparse.html
+from datetime import date  # https://docs.python.org/3/library/datetime.html
+from pathlib import Path  # https://docs.python.org/3/library/pathlib.html
+import requests  # https://requests.readthedocs.io/en/latest/
 
 Built-In Functions Used:
 print() https://docs.python.org/3/library/functions.html#print
@@ -67,16 +70,16 @@ User-Agent header https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/He
 ###########
 # IMPORTS #
 ###########
-import argparse # https://docs.python.org/3/library/argparse.html
+import argparse  # https://docs.python.org/3/library/argparse.html
 # reads command line arguments
 
-from datetime import date # https://docs.python.org/3/library/datetime.html
+from datetime import date  # https://docs.python.org/3/library/datetime.html
 # date: gives us today's date, used to put the date in the file name
 
-from pathlib import Path # https://docs.python.org/3/library/pathlib.html
+from pathlib import Path  # https://docs.python.org/3/library/pathlib.html
 # Path: a nicer way to work with file and folder paths than plain strings.
 
-import requests # https://pypi.org/project/requests/
+import requests  # https://pypi.org/project/requests/
 # sends HTTP requests to websites and APIs
 
 
@@ -92,20 +95,20 @@ HEADERS = {
     "CS418-flock-research-project/1.0 (student research, non-commercial)"
 }
 
-# <repo>/data/raw/  (this file lives in scripts/, so go up 2 levels)
-RAW_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
+# <repo>/data/raw/atlas_of_surveillance/  (this file lives in <repo>/scripts/)
+RAW_DIR = Path(__file__).resolve().parents[1] / "data" / "raw" / "atlas_of_surveillance"
 
 
-###########################################################################################################################
 ########
 # MAIN #
 ########
-def main():
+def main() -> None:
+    """Download the Atlas CSV and save it with today's date in the file name."""
     p = argparse.ArgumentParser(description="Download EFF Atlas of Surveillance CSV")
     p.add_argument(
         "--out",
         default=None,
-        help="Output CSV path (default: data/raw/atlas_of_surveillance_YYYY-MM-DD.csv)",
+        help="Output CSV path (default: data/raw/atlas_of_surveillance/atlas_of_surveillance_YYYY-MM-DD.csv)",
     )
     args = p.parse_args()
 
@@ -114,7 +117,7 @@ def main():
 
     print(f"Downloading {DATA_URL} ...")
     resp = requests.get(DATA_URL, headers=HEADERS, timeout=120)
-    resp.raise_for_status() # stop on 4xx/5xx errors
+    resp.raise_for_status()  # stop on 4xx/5xx errors
 
     # Quick check: a real CSV starts with the header row. If we got a web
     # page instead (e.g. an error page), don't save it.
@@ -122,13 +125,17 @@ def main():
        raise SystemExit("Response doesn't look like the Atlas CSV -- not saving.")
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_bytes(resp.content) # save the raw bytes, unchanged
+    out_path.write_bytes(resp.content)  # save the raw bytes, unchanged
 
     print(f"Wrote {len(resp.content) / 1e6:.1f} MB to {out_path}")
 
 
 ###############
-# ENTRY_POINT #
+# ENTRY POINT #
 ###############
 if __name__ == "__main__":
     main()
+
+#######
+# EOF #
+#######
