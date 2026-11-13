@@ -9,16 +9,16 @@ wheels/
 # Virtual environments
 .venv
 
-# data/
+# Jupyter autosave copies
+.ipynb_checkpoints/
+
+# Raw datasets: full files are too large to track.
+# Tracked samples live in data/processed/samples/ (scripts/create_dataset_samples.py).
 data/raw/*
 !data/raw/.gitkeep
 
-# Census TIGER/Line shapefiles (rebuilt by scripts/fetch_census_track_boundaries.py)
-data/external/census_boundaries/*
-!data/external/census_boundaries/.gitkeep
-
-
-# External data: large files, rebuilt by fetch scripts (keep folder skeleton)
+# External geographic data (TIGER/Line boundaries, Chicago files): large files,
+# some rebuilt by fetch scripts, some obtained manually. Keep the folder skeleton.
 data/external/**
 !data/external/**/
 !data/external/**/.gitkeep
@@ -26,3 +26,8 @@ data/external/**
 
 # Secrets
 .env
+
+
+# Claude Code and Graphify local files
+.claude/
+graphify-out/
